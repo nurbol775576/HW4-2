@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('./img7755.jpg');
+    animation: img;
+    animation-name: img;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+
+.wrapper{
+    width: 280px;
+    margin: 100px auto;
+}
+
+.formm input {
+    width: 80%;
+    padding: 10px;
+}
+
+.form button {
+    width: 20%;
+    padding: 10px;
+}
+
+table{
+width: 100%;
+border-collapse: collapse;
+}
+
+td{
+   border: 1px solid;
+}
+
+@keyframes img {
+    0%{
+        background-position:  0 0;
+    }
+    100%{
+        background-position: 40% 40%;
+    }
+}
